@@ -68,7 +68,7 @@
 }
 
 .welcome{
-    background-image: url(/images/Beach.JPG);
+    background-image: url(Beach.JPG);
     background-attachment: fixed;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.5);
