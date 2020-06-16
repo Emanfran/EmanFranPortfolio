@@ -36,6 +36,7 @@
     grid-template-areas: "a a a a";
     gap: 15px;
     overflow: auto;
+   
 }
 
 .Javascript img{  
@@ -67,7 +68,7 @@
 }
 
 .welcome{
-    background-image: url(Beach.JPG);
+    background-image: url(/images/Beach.JPG);
     background-attachment: fixed;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.5);
@@ -75,6 +76,7 @@
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+   
 }
 
 .welcome h1{
@@ -89,10 +91,17 @@
     .welcome h1{
         
         font-size: 55px;
-        
-        
+
     }
     .welcome{
+        background-image: url(/images/Beach.JPG);
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.5);
         padding: 15vh .25em;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+       
     }
 }
