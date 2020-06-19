@@ -1,0 +1,54 @@
+#Primary{
+	font-family: monospace;
+
+}
+
+.mainsection{
+	padding-top: 15px ;
+	height:90vh;
+	background-color:#dae0e6;
+	
+}
+
+.posts{
+	
+	display:grid;
+	grid-auto-columns: auto;
+	grid-template-areas: "a a";
+	height:60vh;
+	margin:15px;
+	border: seagreen soild 20px;
+	background-color:white;
+}
+.postcomment{
+	text-align: center;
+	margin: 40px;
+	padding: 10px;
+}
+
+.fa-user-circle-o{
+	font-size: 300px;
+	color: rgb(45, 30, 182);
+	
+}
+@media (max-width: 920px) {
+	.fa-user-circle-o{
+		font-size: 150px;
+		color: rgb(45, 30, 182);
+	}
+	.posts{
+		display:grid;
+		grid-auto-columns: auto;
+		grid-template-areas: "a";
+		height:65vh;
+		border: seagreen soild 20px;
+		background-color:white;
+	}
+
+	.postcomment{
+		text-align: center;
+		margin: 20px;
+		padding: 5px;
+	}
+
+}
