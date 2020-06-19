@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+ <html class="no-js">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>JS Events</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="resources.css">
     </head>
     <body>
         <div id="Secondary">
             <nav class="nav">
                 <ul class="menu">
                     <a href="index.html"><li>Home</li></a>
-                    <a href="#"><li>Blog</li></a>
-                    <a href="#"><li>Resources</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a href="blog.html"><li>Blog</li></a>
+                    <a href="resources.html"><li>Resources</li></a>
+                    <a href="Contact.html"><li>Contact</li></a>
                 </ul>
+      
+
             </nav>
-        </div>
+            </div>
         
         <div class="container">
                 <div id='mouseTarget'></div>
@@ -26,8 +32,34 @@
                 </ul>
             </div>
         </div>
+               <div class="footer">
+            
+
+            <div class="socials">
+               
+              
+                <a href="https://www.reddit.com/user/EFworks" class="fa fa-reddit"></a>    
+              
+                <a href="mailto:efworks@gmail.com" class="fa fa-google"></a>
+           
+                <a href="https://www.linkedin.com/in/emanuel-francis-b91365162" class="fa fa-linkedin"></a> 
+           
+                <a href="https://github.com/Emanfran" class="fa fa-github"></a>
+        </div>
+        <div class="footnav">
+            
+            <ul class="foot">
+                <a href="index.html"><li>Home</li></a>
+                <a href="blog.html"><li>Blog</li></a>
+                <a href="resources.html"><li>Resources</li></a>
+                <a href="Contact.html"><li>Contact</li></a>
+            </ul>
+            <footer>©2020 EFWORKS</footer>
+        </div>
         
         <style>
+
+
             body{
                 margin:0px;
             }
@@ -56,6 +88,36 @@
             .container ul{
                 list-style: "-";
             }
+            
+            
+@media (max-width: 920px) {
+	
+	 #mouseTarget{
+	
+                display: inline-block;
+                box-sizing: border-box;
+                width: 300px;
+                height: 250px;
+                background-color: azure;
+                border:1px solid #333;
+            }
+            .container{
+            position:relative;
+           	margin:15px;
+                display: grid;
+                grid-auto-columns: auto;
+                grid-template-areas: "a";
+                padding: 10px;
+            }
+            .readouts{
+                display: inline-block;
+               
+                width: 300px;
+                background-color: rgba(231, 227, 227, 0.795);
+                border-radius: 1%;
+                overflow: auto;
+            }
+  }
 
         </style>
         <script>
