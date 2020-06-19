@@ -88,7 +88,7 @@
     .welcome{
        
         padding: 15vh .25em;
-         background-attachment: scroll;
+         background-attachment: fixed;
        
     }
 }
