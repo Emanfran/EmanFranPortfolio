@@ -30,33 +30,24 @@
    
 }
 
-.Javascript img{  
+
+.clock img{
     width: 300px;
 }
-.Css img{
+.jsBasicEvents img{
     width: 300px;
 }
-.screenshots1{
+.jsBasicEvents{
     display: grid;
     grid-row-start: 2;
 }
 
-.screenshots2{
+.clock{
     display: grid;
     grid-row-start: 2;
-    grid-column-start: 2;
-}
-.screenshots3{
-    display: grid;
-    grid-row-start: 2;
-    grid-column-start: 1;
+   
 }
 
-
-.Css{
-    display: grid;
-    grid-row-start: 3;
-}
 
 .welcome{
     background-image: url(Focal-Fossa-wallpaper.jpg);
@@ -88,7 +79,18 @@
     .welcome{
        
         padding: 15vh .25em;
-      
+        
+       
+    }
+
+    .welcome{
+        background-image: url(Focal-Fossa-wallpaper.jpg);
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        background-color: rgba(219, 200, 200, 0.096);
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
        
     }
 }
